@@ -20,6 +20,7 @@
 		DAC622A4237A3707001F856F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC622A3237A3707001F856F /* LoginViewController.swift */; };
 		DAC622A6237A371F001F856F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC622A5237A371F001F856F /* FeedViewController.swift */; };
 		DAC622A8237A6D08001F856F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC622A7237A6D08001F856F /* CameraViewController.swift */; };
+		DAC622AA237A8CD5001F856F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC622A9237A8CD5001F856F /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		DAC622A3237A3707001F856F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DAC622A5237A371F001F856F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DAC622A7237A6D08001F856F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DAC622A9237A8CD5001F856F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				DAC622A3237A3707001F856F /* LoginViewController.swift */,
 				DAC622A5237A371F001F856F /* FeedViewController.swift */,
 				DAC622A7237A6D08001F856F /* CameraViewController.swift */,
+				DAC622A9237A8CD5001F856F /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				DAC62274237A3087001F856F /* AppDelegate.swift in Sources */,
 				DAC622A6237A371F001F856F /* FeedViewController.swift in Sources */,
 				DAC62276237A3087001F856F /* SceneDelegate.swift in Sources */,
+				DAC622AA237A8CD5001F856F /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
