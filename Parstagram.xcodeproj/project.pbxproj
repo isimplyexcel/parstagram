@@ -19,6 +19,7 @@
 		DAC62296237A3089001F856F /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC62295237A3089001F856F /* ParstagramUITests.swift */; };
 		DAC622A4237A3707001F856F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC622A3237A3707001F856F /* LoginViewController.swift */; };
 		DAC622A6237A371F001F856F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC622A5237A371F001F856F /* FeedViewController.swift */; };
+		DAC622A8237A6D08001F856F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC622A7237A6D08001F856F /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		DAC62297237A3089001F856F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAC622A3237A3707001F856F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DAC622A5237A371F001F856F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DAC622A7237A6D08001F856F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				DAC62281237A3089001F856F /* Info.plist */,
 				DAC622A3237A3707001F856F /* LoginViewController.swift */,
 				DAC622A5237A371F001F856F /* FeedViewController.swift */,
+				DAC622A7237A6D08001F856F /* CameraViewController.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC622A4237A3707001F856F /* LoginViewController.swift in Sources */,
+				DAC622A8237A6D08001F856F /* CameraViewController.swift in Sources */,
 				DAC62274237A3087001F856F /* AppDelegate.swift in Sources */,
 				DAC622A6237A371F001F856F /* FeedViewController.swift in Sources */,
 				DAC62276237A3087001F856F /* SceneDelegate.swift in Sources */,
