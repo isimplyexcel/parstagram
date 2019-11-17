@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://limitless-crag-16302.herokuapp.com/parse"
             })
         )
+        
         return true
     }
 
