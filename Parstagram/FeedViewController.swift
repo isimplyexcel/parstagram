@@ -85,7 +85,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         
         tableView.reloadData()
-        
         // clear and dismiss the input bar
         commentBar.inputTextView.text = nil
         
@@ -163,14 +162,11 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     */
     @IBAction func onLogoutButton(_ sender: Any) {
-        PFUser.logOut()
-        print("Logout pressed")
         let main = UIStoryboard(name: "Main", bundle: nil)
         let loginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
-        print("set main and loginviewcontroller")
-        let delegate = SceneDelegate()
-        print("should see loginview")
+        let delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
         delegate.window?.rootViewController = loginViewController
+        PFUser.logOut()
     }
     
 }
